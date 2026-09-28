@@ -1,0 +1,58 @@
+# Local credentials and environment variants
+.env
+.env.*
+!.env.example
+
+# Python tooling
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+dist/
+build/
+# 정적 데모 빌드(scripts/build_static.py)는 배포용으로 추적한다. 합성 데이터만 들어 있다.
+!/dist/
+
+# Keys, auth files and local-only reports (never commit)
+*.pem
+*.key
+*.p12
+*.keystore
+auth.json
+credentials*.json
+secrets*.json
+service-account*.json
+SECURITY_AUDIT.md
+
+# OS / editor / logs
+.DS_Store
+.idea/
+.vscode/
+*.log
+
+# Claude Code per-user settings
+.claude/settings.local.json
+
+# Browser check tooling (Playwright)
+node_modules/
+
+# Agent tooling session state
+.omo/
+
+# data/: runtime artifacts are private by default. Only the registry outputs that serve as the
+# verification baseline are tracked (registry.json, registry_report.md).
+# Excluded this way: deposit_addresses.json (private addresses), swap_history.json and
+# operations.jsonl (operation journals), *.lock, dashboard_preferences.json, logos.json,
+# listing_state.json, registry_sources.json / registry_metadata.json (raw provider snapshots),
+# registry-backups/.
+/data/*
+!/data/.gitkeep
+!/data/registry.json
+!/data/registry_report.md
+PORTFOLIO_NOTES.md
+SECURITY_AUDIT.md
+.claude/
+.omo/
+tasks/log.csv

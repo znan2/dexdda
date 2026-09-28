@@ -1,0 +1,248 @@
+# 실제 wallet API의 net_type을 확인한 명시적 매핑. 표시명으로 런타임 추측하지 않습니다.
+# 범위는 CoinGecko chain_identifier와 OKX Market/Swap API 교집합으로 매 빌드 재검증합니다.
+# CRO는 Cronos POS와 EVM 구분이 불명확하여 자동 확정하지 않습니다.
+
+[[networks]]
+exchange = "upbit"
+net_type = "ARBITRUM"
+chain_index = "42161"
+platform_id = "arbitrum-one"
+evidence = "2026-09-19 upbit /v1/status/wallet: Arbitrum One; CoinGecko asset_platforms chain_identifier=42161"
+
+[[networks]]
+exchange = "upbit"
+net_type = "ARC"
+chain_index = "5042"
+platform_id = "arc"
+evidence = "2026-09-19 upbit /v1/status/wallet: Arc; CoinGecko asset_platforms chain_identifier=5042"
+
+[[networks]]
+exchange = "upbit"
+net_type = "AVAX"
+chain_index = "43114"
+platform_id = "avalanche"
+evidence = "2026-09-19 upbit /v1/status/wallet: Avalanche C-Chain; CoinGecko asset_platforms chain_identifier=43114"
+
+[[networks]]
+exchange = "upbit"
+net_type = "BASENET"
+chain_index = "8453"
+platform_id = "base"
+evidence = "2026-09-19 upbit /v1/status/wallet: Base; CoinGecko asset_platforms chain_identifier=8453"
+
+[[networks]]
+exchange = "upbit"
+net_type = "BLASTNET"
+chain_index = "81457"
+platform_id = "blast"
+evidence = "2026-09-19 upbit /v1/status/wallet: Blast; CoinGecko asset_platforms chain_identifier=81457"
+
+[[networks]]
+exchange = "upbit"
+net_type = "CFX"
+chain_index = "1030"
+platform_id = "conflux"
+evidence = "2026-09-19 upbit /v1/status/wallet: Conflux eSpace; CoinGecko asset_platforms chain_identifier=1030"
+
+[[networks]]
+exchange = "upbit"
+net_type = "ETH"
+chain_index = "1"
+platform_id = "ethereum"
+evidence = "2026-09-19 upbit /v1/status/wallet: Ethereum; CoinGecko asset_platforms chain_identifier=1"
+
+[[networks]]
+exchange = "upbit"
+net_type = "LINEANET"
+chain_index = "59144"
+platform_id = "linea"
+evidence = "2026-09-19 upbit /v1/status/wallet: Linea; CoinGecko asset_platforms chain_identifier=59144"
+
+[[networks]]
+exchange = "upbit"
+net_type = "MON"
+chain_index = "143"
+platform_id = "monad"
+evidence = "2026-09-19 upbit /v1/status/wallet: Monad; CoinGecko asset_platforms chain_identifier=143"
+
+[[networks]]
+exchange = "upbit"
+net_type = "OPTIMISM"
+chain_index = "10"
+platform_id = "optimistic-ethereum"
+evidence = "2026-09-19 upbit /v1/status/wallet: Optimism; CoinGecko asset_platforms chain_identifier=10"
+
+[[networks]]
+exchange = "upbit"
+net_type = "POL"
+chain_index = "137"
+platform_id = "polygon-pos"
+evidence = "2026-09-19 upbit /v1/status/wallet: Polygon; CoinGecko asset_platforms chain_identifier=137"
+
+[[networks]]
+exchange = "upbit"
+net_type = "PROS"
+chain_index = "1672"
+platform_id = "pharos"
+evidence = "2026-09-19 upbit /v1/status/wallet: Pharos; CoinGecko asset_platforms chain_identifier=1672"
+
+[[networks]]
+exchange = "upbit"
+net_type = "SCROLLNET"
+chain_index = "534352"
+platform_id = "scroll"
+evidence = "2026-09-19 upbit /v1/status/wallet: Scroll; CoinGecko asset_platforms chain_identifier=534352"
+
+[[networks]]
+exchange = "upbit"
+net_type = "XPL"
+chain_index = "9745"
+platform_id = "plasma"
+evidence = "2026-09-19 upbit /v1/status/wallet: Plasma; CoinGecko asset_platforms chain_identifier=9745"
+
+[[networks]]
+exchange = "upbit"
+net_type = "ZETA"
+chain_index = "7000"
+platform_id = "zetachain"
+evidence = "2026-09-19 upbit /v1/status/wallet: ZetaChain; CoinGecko asset_platforms chain_identifier=7000"
+
+[[networks]]
+exchange = "upbit"
+net_type = "ZKSYNC"
+chain_index = "324"
+platform_id = "zksync"
+evidence = "2026-09-19 upbit /v1/status/wallet: ZKsync Era; CoinGecko asset_platforms chain_identifier=324"
+
+[[networks]]
+exchange = "bithumb"
+net_type = "ARB_ETH"
+chain_index = "42161"
+platform_id = "arbitrum-one"
+evidence = "2026-09-19 bithumb /v1/status/wallet: Arbitrum One; CoinGecko asset_platforms chain_identifier=42161"
+
+[[networks]]
+exchange = "bithumb"
+net_type = "AVAX"
+chain_index = "43114"
+platform_id = "avalanche"
+evidence = "2026-09-19 bithumb /v1/status/wallet: Avalanche C-Chain; CoinGecko asset_platforms chain_identifier=43114"
+
+[[networks]]
+exchange = "bithumb"
+net_type = "BASE_ETH"
+chain_index = "8453"
+platform_id = "base"
+evidence = "2026-09-19 bithumb /v1/status/wallet: BASE; CoinGecko asset_platforms chain_identifier=8453"
+
+[[networks]]
+exchange = "bithumb"
+net_type = "BLAST_ETH"
+chain_index = "81457"
+platform_id = "blast"
+evidence = "2026-09-19 bithumb /v1/status/wallet: Blast; CoinGecko asset_platforms chain_identifier=81457"
+
+[[networks]]
+exchange = "bithumb"
+net_type = "BSC"
+chain_index = "56"
+platform_id = "binance-smart-chain"
+evidence = "2026-09-19 bithumb /v1/status/wallet: BNB Smart Chain; CoinGecko asset_platforms chain_identifier=56"
+
+[[networks]]
+exchange = "bithumb"
+net_type = "CFX"
+chain_index = "1030"
+platform_id = "conflux"
+evidence = "2026-09-19 bithumb /v1/status/wallet: CFX eSpace; CoinGecko asset_platforms chain_identifier=1030"
+
+[[networks]]
+exchange = "bithumb"
+net_type = "ETH"
+chain_index = "1"
+platform_id = "ethereum"
+evidence = "2026-09-19 bithumb /v1/status/wallet: Ethereum; CoinGecko asset_platforms chain_identifier=1"
+
+[[networks]]
+exchange = "bithumb"
+net_type = "LINEA"
+chain_index = "59144"
+platform_id = "linea"
+evidence = "2026-09-19 bithumb /v1/status/wallet: Linea; CoinGecko asset_platforms chain_identifier=59144"
+
+[[networks]]
+exchange = "bithumb"
+net_type = "MANTA_ETH"
+chain_index = "169"
+platform_id = "manta-pacific"
+evidence = "2026-09-19 bithumb /v1/status/wallet: Manta Pacific; CoinGecko asset_platforms chain_identifier=169"
+
+[[networks]]
+exchange = "bithumb"
+net_type = "MERL_BTC"
+chain_index = "4200"
+platform_id = "merlin-chain"
+evidence = "2026-09-19 bithumb /v1/status/wallet: Merlin Chain; CoinGecko asset_platforms chain_identifier=4200"
+
+[[networks]]
+exchange = "bithumb"
+net_type = "MON"
+chain_index = "143"
+platform_id = "monad"
+evidence = "2026-09-19 bithumb /v1/status/wallet: Monad; CoinGecko asset_platforms chain_identifier=143"
+
+[[networks]]
+exchange = "bithumb"
+net_type = "OP_ETH"
+chain_index = "10"
+platform_id = "optimistic-ethereum"
+evidence = "2026-09-19 bithumb /v1/status/wallet: Optimism; CoinGecko asset_platforms chain_identifier=10"
+
+[[networks]]
+exchange = "bithumb"
+net_type = "POL"
+chain_index = "137"
+platform_id = "polygon-pos"
+evidence = "2026-09-19 bithumb /v1/status/wallet: Polygon; CoinGecko asset_platforms chain_identifier=137"
+
+[[networks]]
+exchange = "bithumb"
+net_type = "PROS"
+chain_index = "1672"
+platform_id = "pharos"
+evidence = "2026-09-19 bithumb /v1/status/wallet: Pharos; CoinGecko asset_platforms chain_identifier=1672"
+
+[[networks]]
+exchange = "bithumb"
+net_type = "S"
+chain_index = "146"
+platform_id = "sonic"
+evidence = "2026-09-19 bithumb /v1/status/wallet: Sonic; CoinGecko asset_platforms chain_identifier=146"
+
+[[networks]]
+exchange = "bithumb"
+net_type = "SCROLL_ETH"
+chain_index = "534352"
+platform_id = "scroll"
+evidence = "2026-09-19 bithumb /v1/status/wallet: Scroll; CoinGecko asset_platforms chain_identifier=534352"
+
+[[networks]]
+exchange = "bithumb"
+net_type = "XPL"
+chain_index = "9745"
+platform_id = "plasma"
+evidence = "2026-09-19 bithumb /v1/status/wallet: Plasma; CoinGecko asset_platforms chain_identifier=9745"
+
+[[networks]]
+exchange = "bithumb"
+net_type = "ZETA"
+chain_index = "7000"
+platform_id = "zetachain"
+evidence = "2026-09-19 bithumb /v1/status/wallet: ZetaChain; CoinGecko asset_platforms chain_identifier=7000"
+
+[[networks]]
+exchange = "bithumb"
+net_type = "ZK_ETH"
+chain_index = "324"
+platform_id = "zksync"
+evidence = "2026-09-19 bithumb /v1/status/wallet: zkSync Era; CoinGecko asset_platforms chain_identifier=324"

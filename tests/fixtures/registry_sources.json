@@ -1,0 +1,278 @@
+{
+  "upbit_markets": [
+    {
+      "market": "KRW-AI",
+      "korean_name": "Gensyn",
+      "english_name": "Gensyn"
+    },
+    {
+      "market": "KRW-ETH",
+      "korean_name": "Ethereum",
+      "english_name": "Ethereum"
+    },
+    {
+      "market": "KRW-BTC",
+      "korean_name": "Bitcoin",
+      "english_name": "Bitcoin"
+    },
+    {
+      "market": "KRW-XRP",
+      "korean_name": "XRP",
+      "english_name": "XRP"
+    },
+    {
+      "market": "KRW-MISSING",
+      "korean_name": "Missing",
+      "english_name": "Missing"
+    },
+    {
+      "market": "KRW-CLASH",
+      "korean_name": "Ambiguous",
+      "english_name": "Ambiguous"
+    },
+    {
+      "market": "KRW-UNK",
+      "korean_name": "Unknown",
+      "english_name": "Unknown"
+    },
+    {
+      "market": "KRW-USDC",
+      "korean_name": "USD Coin",
+      "english_name": "USD Coin"
+    }
+  ],
+  "bithumb_markets": [
+    {
+      "market": "KRW-AI",
+      "korean_name": "Gensyn",
+      "english_name": "Gensyn"
+    }
+  ],
+  "upbit_wallets": [
+    {
+      "currency": "AI",
+      "net_type": "ETH",
+      "network_name": "ETH",
+      "wallet_state": "paused"
+    },
+    {
+      "currency": "ETH",
+      "net_type": "ETH",
+      "network_name": "ETH",
+      "wallet_state": "working"
+    },
+    {
+      "currency": "BTC",
+      "net_type": "BTC",
+      "network_name": "BTC",
+      "wallet_state": "working"
+    },
+    {
+      "currency": "XRP",
+      "net_type": "XRP",
+      "network_name": "XRP",
+      "wallet_state": "working"
+    },
+    {
+      "currency": "UNK",
+      "net_type": "NEW_NETWORK",
+      "network_name": "NEW_NETWORK",
+      "wallet_state": "working"
+    },
+    {
+      "currency": "USDC",
+      "net_type": "ARC",
+      "network_name": "ARC",
+      "wallet_state": "working"
+    }
+  ],
+  "bithumb_wallets": [
+    {
+      "currency": "AI",
+      "net_type": "BASE_ETH",
+      "network_name": "Base",
+      "wallet_state": "working"
+    }
+  ],
+  "upbit_tickers": [
+    {
+      "base": "AI",
+      "target": "KRW",
+      "coin_id": "gensyn"
+    },
+    {
+      "base": "ETH",
+      "target": "KRW",
+      "coin_id": "ethereum"
+    },
+    {
+      "base": "BTC",
+      "target": "KRW",
+      "coin_id": "bitcoin"
+    },
+    {
+      "base": "XRP",
+      "target": "KRW",
+      "coin_id": "ripple"
+    },
+    {
+      "base": "CLASH",
+      "target": "KRW",
+      "coin_id": "gensyn"
+    },
+    {
+      "base": "CLASH",
+      "target": "KRW",
+      "coin_id": "artificial-inu"
+    },
+    {
+      "base": "UNK",
+      "target": "KRW",
+      "coin_id": "unknown"
+    },
+    {
+      "base": "USDC",
+      "target": "KRW",
+      "coin_id": "usd-coin"
+    }
+  ],
+  "bithumb_tickers": [
+    {
+      "base": "AI",
+      "target": "KRW",
+      "coin_id": "gensyn"
+    }
+  ],
+  "coins": [
+    {
+      "id": "gensyn",
+      "symbol": "ai",
+      "name": "Gensyn",
+      "platforms": {
+        "ethereum": "0x4d7078ddd6ccfed2f85db5b7d3ff16828d378d48",
+        "base": "0x2222222222222222222222222222222222222222",
+        "binance-smart-chain": "0x3333333333333333333333333333333333333333"
+      }
+    },
+    {
+      "id": "artificial-inu",
+      "symbol": "ai",
+      "name": "Artificial Inu",
+      "platforms": {
+        "ethereum": "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+      }
+    },
+    {
+      "id": "ethereum",
+      "symbol": "eth",
+      "name": "Ethereum",
+      "platforms": {}
+    },
+    {
+      "id": "bitcoin",
+      "symbol": "btc",
+      "name": "Bitcoin",
+      "platforms": {}
+    },
+    {
+      "id": "ripple",
+      "symbol": "xrp",
+      "name": "XRP",
+      "platforms": {
+        "binance-smart-chain": "0xbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
+      }
+    },
+    {
+      "id": "unknown",
+      "symbol": "unk",
+      "name": "Unknown",
+      "platforms": {
+        "ethereum": "0xcccccccccccccccccccccccccccccccccccccccc"
+      }
+    },
+    {
+      "id": "usd-coin",
+      "symbol": "usdc",
+      "name": "USD Coin",
+      "platforms": {
+        "arc": "0x3600000000000000000000000000000000000000"
+      }
+    }
+  ],
+  "platforms": [
+    {
+      "id": "ethereum",
+      "chain_identifier": 1,
+      "name": "Ethereum",
+      "native_coin_id": "ethereum"
+    },
+    {
+      "id": "base",
+      "chain_identifier": 8453,
+      "name": "Base",
+      "native_coin_id": "ethereum"
+    },
+    {
+      "id": "binance-smart-chain",
+      "chain_identifier": 56,
+      "name": "BNB Chain",
+      "native_coin_id": "binancecoin"
+    },
+    {
+      "id": "arc",
+      "chain_identifier": 5042,
+      "name": "Arc",
+      "native_coin_id": "usd-coin"
+    },
+    {
+      "id": "solana",
+      "chain_identifier": null,
+      "name": "Solana",
+      "native_coin_id": "solana"
+    }
+  ],
+  "swap_chains": [
+    {
+      "chainIndex": "1",
+      "chainName": "Ethereum"
+    },
+    {
+      "chainIndex": "56",
+      "chainName": "BNB"
+    },
+    {
+      "chainIndex": "8453",
+      "chainName": "Base"
+    },
+    {
+      "chainIndex": "5042",
+      "chainName": "Arc"
+    },
+    {
+      "chainIndex": "501",
+      "chainName": "Solana"
+    }
+  ],
+  "market_chains": [
+    {
+      "chainIndex": "1",
+      "chainName": "Ethereum"
+    },
+    {
+      "chainIndex": "56",
+      "chainName": "BNB"
+    },
+    {
+      "chainIndex": "8453",
+      "chainName": "Base"
+    },
+    {
+      "chainIndex": "5042",
+      "chainName": "Arc"
+    },
+    {
+      "chainIndex": "501",
+      "chainName": "Solana"
+    }
+  ]
+}

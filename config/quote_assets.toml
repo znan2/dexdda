@@ -1,0 +1,160 @@
+# 공식 배포 문서에서 확인한 매수 자산. USDT0는 UI에서 별도 표기합니다.
+# 검토일: 2026-09-20. 추가 L1/데이터 비용을 모델링하지 못한 체인은 실효갭 산출 보류.
+
+[[assets]]
+chain_index = "1"
+address = "0xdac17f958d2ee523a2206206994597c13d831ec7"
+decimals = 6
+symbol = "USDT"
+evidence = "https://tether.to/en/supported-protocols/"
+simple_gas = true
+
+[[assets]]
+chain_index = "10"
+address = "0x01bff41798a0bcf287b996046ca68b395dbc1071"
+decimals = 6
+symbol = "USDT0"
+evidence = "https://docs.usdt0.to/api/deployments?product=usdt0"
+simple_gas = false
+
+[[assets]]
+chain_index = "130"
+address = "0x9151434b16b9763660705744891fa906f660ecc5"
+decimals = 6
+symbol = "USDT0"
+evidence = "https://docs.usdt0.to/api/deployments?product=usdt0"
+simple_gas = false
+
+[[assets]]
+chain_index = "137"
+address = "0xc2132d05d31c914a87c6611c10748aeb04b58e8f"
+decimals = 6
+symbol = "USDT0"
+evidence = "https://docs.usdt0.to/api/deployments?product=usdt0"
+simple_gas = true
+
+[[assets]]
+chain_index = "143"
+address = "0xe7cd86e13ac4309349f30b3435a9d337750fc82d"
+decimals = 6
+symbol = "USDT0"
+evidence = "https://docs.usdt0.to/api/deployments?product=usdt0"
+simple_gas = false
+
+[[assets]]
+chain_index = "196"
+address = "0x779ded0c9e1022225f8e0630b35a9b54be713736"
+decimals = 6
+symbol = "USDT0"
+evidence = "https://docs.usdt0.to/api/deployments?product=usdt0"
+simple_gas = false
+
+[[assets]]
+chain_index = "1030"
+address = "0xaf37e8b6c9ed7f6318979f56fc287d76c30847ff"
+decimals = 6
+symbol = "USDT0"
+evidence = "https://docs.usdt0.to/api/deployments?product=usdt0"
+simple_gas = false
+
+[[assets]]
+chain_index = "5000"
+address = "0x779ded0c9e1022225f8e0630b35a9b54be713736"
+decimals = 6
+symbol = "USDT0"
+evidence = "https://docs.usdt0.to/api/deployments?product=usdt0"
+simple_gas = false
+
+[[assets]]
+chain_index = "9745"
+address = "0xb8ce59fc3717ada4c02eadf9682a9e934f625ebb"
+decimals = 6
+symbol = "USDT0"
+evidence = "https://docs.usdt0.to/api/deployments?product=usdt0"
+simple_gas = false
+
+[[assets]]
+chain_index = "42161"
+address = "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
+decimals = 6
+symbol = "USDT0"
+evidence = "https://docs.usdt0.to/api/deployments?product=usdt0"
+simple_gas = false
+
+[[assets]]
+chain_index = "43114"
+address = "0x9702230a8ea53601f5cd2dc00fdbc13d4df4a8c7"
+decimals = 6
+symbol = "USDT"
+evidence = "https://tether.to/en/supported-protocols/"
+simple_gas = true
+
+[[assets]]
+chain_index = "57073"
+address = "0x0200c29006150606b650577bbe7b6248f58470c1"
+decimals = 6
+symbol = "USDT0"
+evidence = "https://docs.usdt0.to/api/deployments?product=usdt0"
+simple_gas = false
+
+# BNB Chain 공식 문서의 BEP20 계약 + 공식 RPC eth_call 검증 (2026-09-20).
+# Binance-Peg USDT, decimals=18. 가격 영향 조회용; 실효갭/실행 가스 검증은 별도.
+[[assets]]
+chain_index = "56"
+address = "0x55d398326f99059ff775485246999027b3197955"
+decimals = 18
+symbol = "USDT"
+evidence = "https://docs.bnbchain.org/bnb-smart-chain/benchmark/design-reference/ ; https://bsc-dataseed.bnbchain.org eth_chainId=56, decimals()=18, symbol()=USDT"
+simple_gas = false
+
+# USDC/USDT/USDG는 사용자 결정에 따라 계산상 1:1. 견적은 실제 선택 자산으로 조회.
+[[assets]]
+chain_index = "1"
+address = "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+decimals = 6
+symbol = "USDC"
+evidence = "https://developers.circle.com/stablecoins/usdc-contract-addresses"
+simple_gas = true
+
+[[assets]]
+chain_index = "42161"
+address = "0xaf88d065e77c8cc2239327c5edb3a432268e5831"
+decimals = 6
+symbol = "USDC"
+label = "USDC · native"
+evidence = "https://developers.circle.com/stablecoins/usdc-contract-addresses"
+simple_gas = false
+
+[[assets]]
+chain_index = "8453"
+address = "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913"
+decimals = 6
+symbol = "USDC"
+evidence = "https://developers.circle.com/stablecoins/usdc-contract-addresses"
+simple_gas = false
+
+[[assets]]
+chain_index = "8453"
+address = "0xfde4c96c8593536e31f229ea8f37b2ada2699bb2"
+decimals = 6
+symbol = "USDT"
+label = "USDT · bridged"
+evidence = "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/base/assets/0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2/info.json"
+simple_gas = false
+
+[[assets]]
+chain_index = "56"
+address = "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d"
+decimals = 18
+symbol = "USDC"
+label = "USDC · Binance-Peg"
+evidence = "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/smartchain/assets/0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d/info.json"
+simple_gas = false
+
+[[assets]]
+chain_index = "4663"
+address = "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+decimals = 6
+symbol = "USDG"
+evidence = "https://docs.robinhood.com/chain/contracts/"
+simple_gas = false

@@ -1,0 +1,118 @@
+{
+  "source": "https://web3.okx.com/onchainos/dev-docs/trade/dex-smart-contract",
+  "reviewed": "2026-09-20",
+  "chains": {
+    "1": {
+      "router": "0x8feab81d36e7576107d5de0758c1b839be31b4f6",
+      "spender": "0x40aa958dd87fc8305b97f2ba922cddca374bcd7f"
+    },
+    "10": {
+      "router": "0x1f5b43127414e36c31ecb5ff5567262997cd24d0",
+      "spender": "0x68d6b739d2020067d1e2f713b999da97e4d54812"
+    },
+    "25": {
+      "router": "0xc86fb5bf6bfde081fd627c639c05e70d23cf7717",
+      "spender": "0x70cbb871e8f30fc8ce23609e9e0ea87b6b222f58"
+    },
+    "56": {
+      "router": "0x5994814f2c4040b863a0125a45de152a8c2a4dec",
+      "spender": "0x2c34a2fb1d0b4f55de51e1d0bdefaddce6b7cdd6"
+    },
+    "130": {
+      "router": "0xe3dab8bf5187f9b4e8e89ff5414d7cf71e2c82e1",
+      "spender": "0x2e28281cf3d58f475cebe27bec4b8a23dfc7782c"
+    },
+    "137": {
+      "router": "0x3c4829196bfadff4394726b45159aeaac6fcd41c",
+      "spender": "0x3b86917369b83a6892f553609f3c2f439c184e31"
+    },
+    "143": {
+      "router": "0xc1c76e784db8d68585fb608ce68fc5dcff14000e",
+      "spender": "0xf534a8a1cad0543cd6438f7534ca3486c01998d4"
+    },
+    "146": {
+      "router": "0xd72f9af181a0eb1b8550a00124ecdb71bb758c89",
+      "spender": "0xd321ab5589d3e8fa5df985ccfef625022e2dd910"
+    },
+    "169": {
+      "router": "0xd72f9af181a0eb1b8550a00124ecdb71bb758c89",
+      "spender": "0x57df6092665eb6058de53939612413ff4b09114e"
+    },
+    "196": {
+      "router": "0x7c5bee2a8091c3ef39072f64f18fac913060aeaf",
+      "spender": "0x8b773d83bc66be128c60e07e17c8901f7a64f000"
+    },
+    "250": {
+      "router": "0xd72f9af181a0eb1b8550a00124ecdb71bb758c89",
+      "spender": "0x70cbb871e8f30fc8ce23609e9e0ea87b6b222f58"
+    },
+    "324": {
+      "router": "0x46edecea0228f04ab88dc34be98314863ba40be0",
+      "spender": "0xc67879f4065d3b9fe1c09ee990b891aa8e3a4c2f"
+    },
+    "1030": {
+      "router": "0x7ae91b984da4795d9fd88419d051d0842f8d3677",
+      "spender": "0x68d6b739d2020067d1e2f713b999da97e4d54812"
+    },
+    "1088": {
+      "router": "0x472fc4f7fd3c9f06f0b8637c5505815ac80938ad",
+      "spender": "0x57df6092665eb6058de53939612413ff4b09114e"
+    },
+    "1672": {
+      "router": "0x974d1cf6ffa4fce5a4d62955afc02f45aac29f35",
+      "spender": "0x78466a1488f1883d71cfddd1c621351572de0a1c"
+    },
+    "4200": {
+      "router": "0xd72f9af181a0eb1b8550a00124ecdb71bb758c89",
+      "spender": "0x8b773d83bc66be128c60e07e17c8901f7a64f000"
+    },
+    "4663": {
+      "router": "0x6e2a35a7ad683cf634d91492d73bb7ff774c6919",
+      "spender": "0x42170295f1173c9e5874ea9d00c6d137e1a4f53d"
+    },
+    "5000": {
+      "router": "0x472fc4f7fd3c9f06f0b8637c5505815ac80938ad",
+      "spender": "0x57df6092665eb6058de53939612413ff4b09114e"
+    },
+    "5042": {
+      "router": "0x4e3bcce28caf98a143fd8bd9e4875ccab3e7bbe0",
+      "spender": "0x2b9899bc46bf0ee094225995f4bd496d42f261af"
+    },
+    "7000": {
+      "router": "0xd72f9af181a0eb1b8550a00124ecdb71bb758c89",
+      "spender": "0x03b5acda01207824cc7bc21783ee5aa2b8d1d2fe"
+    },
+    "8453": {
+      "router": "0x67d03631fe51b741c0c00c4e16eb662ac84381df",
+      "spender": "0x57df6092665eb6058de53939612413ff4b09114e"
+    },
+    "9745": {
+      "router": "0xd72f9af181a0eb1b8550a00124ecdb71bb758c89",
+      "spender": "0x9fd43f5e4c24543b2ebc807321e58e6d350d6a5a"
+    },
+    "42161": {
+      "router": "0x09f94b5fc68e227c323a6fbae3bd98c97fd8c849",
+      "spender": "0x70cbb871e8f30fc8ce23609e9e0ea87b6b222f58"
+    },
+    "43114": {
+      "router": "0xab96dcfa7a7d669d9bf5918fab8641479973dd0a",
+      "spender": "0x40aa958dd87fc8305b97f2ba922cddca374bcd7f"
+    },
+    "57073": {
+      "router": "0x8f98a825ac89501afe33299ddb561829a24c0cc4",
+      "spender": "0xd72f9af181a0eb1b8550a00124ecdb71bb758c89"
+    },
+    "59144": {
+      "router": "0xdfcb0cecc10e78f3f3749f3f3d3ee4047b2c9829",
+      "spender": "0x57df6092665eb6058de53939612413ff4b09114e"
+    },
+    "81457": {
+      "router": "0x472fc4f7fd3c9f06f0b8637c5505815ac80938ad",
+      "spender": "0x5fd2dc91ff1de7ff4aeb1cacef8e9911baaeca68"
+    },
+    "534352": {
+      "router": "0x6148d68ec192df0a7d36d97bdabbebb014c69938",
+      "spender": "0x57df6092665eb6058de53939612413ff4b09114e"
+    }
+  }
+}

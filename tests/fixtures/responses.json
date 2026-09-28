@@ -1,0 +1,42 @@
+{
+  "okx": {
+    "code": "0",
+    "data": [
+      {
+        "chainIndex": "1",
+        "chainName": "Ethereum",
+        "dexTokenApproveAddress": "0x0000000000000000000000000000000000000000"
+      },
+      {
+        "chainIndex": "42161",
+        "chainName": "Arbitrum",
+        "dexTokenApproveAddress": ""
+      }
+    ],
+    "msg": ""
+  },
+  "upbit": [
+    {
+      "currency": "ETH",
+      "net_type": "ETH",
+      "deposit_address": "synthetic-upbit-deposit-address",
+      "secondary_address": null
+    }
+  ],
+  "bithumb": [
+    {
+      "currency": "ETH",
+      "net_type": "ETH",
+      "deposit_address": "synthetic-bithumb-deposit-address",
+      "secondary_address": null
+    }
+  ],
+  "coingecko": {
+    "gecko_says": "(V3) To the Moon!"
+  },
+  "rpc": {
+    "jsonrpc": "2.0",
+    "id": 1,
+    "result": "0x1"
+  }
+}

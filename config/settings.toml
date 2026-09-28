@@ -1,0 +1,63 @@
+# 로컬 수집 기본 설정. 사용자 계정의 요금제나 실거래 한도를 확정하지 않습니다.
+[server]
+host = "127.0.0.1"
+port = 8000
+
+[http]
+timeout_seconds = 15.0
+
+[pricing]
+default_amount_usdt = "1000"
+poll_seconds = 5.0
+ui_poll_seconds = 2.0
+stale_seconds = 15.0
+# USDT 환산값은 5분 이후 재사용 표시. 갱신 실패 시 마지막 정상값 유지.
+usdt_stale_seconds = 300.0
+# /price 100개 실제 조회 확인. 계정 한도에 맞게 간격·배치를 조정합니다.
+okx_batch_size = 100
+okx_interval_seconds = 1.1
+liquidity_poll_seconds = 300.0
+liquidity_stale_seconds = 900.0
+rest_batch_size = 20
+rest_interval_seconds = 0.21
+ws_batch_size = 100
+
+[filters]
+# 코인 전체가 아닌 저유동성 체인 경로를 기본 숨김. 화면에서 포함 가능.
+hide_low_liquidity = true
+max_abs_gap_percent = "30"
+min_liquidity_usd = "50000"
+unrecognized_action = "warn"
+
+[coingecko]
+plan = "demo"
+
+[registry]
+coingecko_interval_seconds = 2.2
+okx_interval_seconds = 1.1
+# 운용값이며 API의 최대 배치 개수라는 뜻은 아닙니다.
+basic_info_batch_size = 20
+# data/registry.json 생성 후 이 시간이 지나면 /api/health와 대시보드 헤더에 오래됨 경고를 표시합니다.
+max_age_hours = 72
+
+[detail]
+# 전송 1회 예산. 실제 실행 전 수신 주소·토큰별 재추정 필요.
+token_transfer_gas = 100000
+native_transfer_gas = 21000
+
+[swap]
+# 실거래는 사용자가 DRY_RUN을 직접 변경하고 매번 확인해야 합니다.
+max_amount_usdt = "1000"
+min_gap_percent = "0"
+slippage_percent = "0.5"
+approval_policy = "capped"
+approval_cap_usdt = "5000"
+receipt_timeout_seconds = 120
+receipt_poll_seconds = 3
+receipt_confirmations = 2
+confirmation_seconds = 60
+
+[operations]
+market_check_seconds = 1800
+fx_check_seconds = 3600
+reference_fx_enabled = true

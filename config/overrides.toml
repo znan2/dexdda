@@ -1,0 +1,206 @@
+# Mapping fixes and exclusions are optional. No allow_swap/status override exists.
+# Native token addresses: https://web3.okx.com/onchainos/dev-docs/trade/dex-aggregation-faq
+# Native coin identities: CoinGecko /asset_platforms. Metadata is checked by OKX on every build.
+# Merlin native_coin_id=wrapped-bitcoin needs separate verification; not registered as native.
+exclusions = []
+
+# Confirmed identities; these do not override supported networks or execution eligibility.
+[[mappings]]
+exchange = "upbit"
+symbol = "TAO"
+coin_id = "bittensor"
+reason = "2026-09-20 verified Upbit Bittensor Network identity https://datalab.upbit.com/assets/TAO/summary and CoinGecko API ID https://www.coingecko.com/en/coins/bittensor; source ticker mapping missing"
+
+[[mappings]]
+exchange = "bithumb"
+symbol = "ARK"
+coin_id = "ark"
+reason = "2026-09-20 Bithumb listing confirms Ark Mainnet and ark.io https://feed.bithumb.com/notice/1644435; CoinGecko ark uses same project https://www.coingecko.com/en/coins/ark"
+
+[[mappings]]
+exchange = "bithumb"
+symbol = "PROS"
+coin_id = "pharos-network"
+reason = "2026-09-20 Bithumb Pharos mainnet identity https://feed-content.bithumb.com/cms/3542c89a-6579-46a7-ade3-982f4e2622f8.pdf and wallet net_type PROS/Pharos match CoinGecko platform pharos (1672), native_coin_id pharos-network; https://www.coingecko.com/en/coins/pharos API ID pharos-network; stale ticker pharos-2 is not used"
+
+[[tokens]]
+coin_id = "ethereum"
+chain_index = "1"
+address = "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+native = true
+reason = "CoinGecko ethereum native_coin_id; OKX Swap FAQ EVM/Arc native address"
+
+[[tokens]]
+coin_id = "ethereum"
+chain_index = "10"
+address = "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+native = true
+reason = "CoinGecko optimistic-ethereum native_coin_id; OKX Swap FAQ EVM/Arc native address"
+
+[[tokens]]
+coin_id = "crypto-com-chain"
+chain_index = "25"
+address = "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+native = true
+reason = "CoinGecko cronos native_coin_id; OKX Swap FAQ EVM/Arc native address"
+
+[[tokens]]
+coin_id = "binancecoin"
+chain_index = "56"
+address = "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+native = true
+reason = "CoinGecko binance-smart-chain native_coin_id; OKX Swap FAQ EVM/Arc native address"
+
+[[tokens]]
+coin_id = "ethereum"
+chain_index = "130"
+address = "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+native = true
+reason = "CoinGecko unichain native_coin_id; OKX Swap FAQ EVM/Arc native address"
+
+[[tokens]]
+coin_id = "polygon-ecosystem-token"
+chain_index = "137"
+address = "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+native = true
+reason = "CoinGecko polygon-pos native_coin_id; OKX Swap FAQ EVM/Arc native address"
+
+[[tokens]]
+coin_id = "monad"
+chain_index = "143"
+address = "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+native = true
+reason = "CoinGecko monad native_coin_id; OKX Swap FAQ EVM/Arc native address"
+
+[[tokens]]
+coin_id = "sonic-3"
+chain_index = "146"
+address = "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+native = true
+reason = "CoinGecko sonic native_coin_id; OKX Swap FAQ EVM/Arc native address"
+
+[[tokens]]
+coin_id = "ethereum"
+chain_index = "169"
+address = "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+native = true
+reason = "CoinGecko manta-pacific native_coin_id; OKX Swap FAQ EVM/Arc native address"
+
+[[tokens]]
+coin_id = "ethereum"
+chain_index = "324"
+address = "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+native = true
+reason = "CoinGecko zksync native_coin_id; OKX Swap FAQ EVM/Arc native address"
+
+[[tokens]]
+coin_id = "conflux-token"
+chain_index = "1030"
+address = "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+native = true
+reason = "CoinGecko conflux native_coin_id; OKX Swap FAQ EVM/Arc native address"
+
+[[tokens]]
+coin_id = "metis-token"
+chain_index = "1088"
+address = "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+native = true
+reason = "CoinGecko metis-andromeda native_coin_id; OKX Swap FAQ EVM/Arc native address"
+
+[[tokens]]
+coin_id = "ethereum"
+chain_index = "1101"
+address = "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+native = true
+reason = "CoinGecko polygon-zkevm native_coin_id; OKX Swap FAQ EVM/Arc native address"
+
+[[tokens]]
+coin_id = "pharos-network"
+chain_index = "1672"
+address = "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+native = true
+reason = "CoinGecko pharos native_coin_id; OKX Swap FAQ EVM/Arc native address"
+
+[[tokens]]
+coin_id = "ethereum"
+chain_index = "4663"
+address = "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+native = true
+reason = "CoinGecko robinhood native_coin_id; OKX Swap FAQ EVM/Arc native address"
+
+[[tokens]]
+coin_id = "mantle"
+chain_index = "5000"
+address = "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+native = true
+reason = "CoinGecko mantle native_coin_id; OKX Swap FAQ EVM/Arc native address"
+
+[[tokens]]
+coin_id = "usd-coin"
+chain_index = "5042"
+address = "0x3600000000000000000000000000000000000000"
+native = true
+reason = "CoinGecko arc native_coin_id; OKX Swap FAQ EVM/Arc native address"
+
+[[tokens]]
+coin_id = "zetachain"
+chain_index = "7000"
+address = "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+native = true
+reason = "CoinGecko zetachain native_coin_id; OKX Swap FAQ EVM/Arc native address"
+
+[[tokens]]
+coin_id = "ethereum"
+chain_index = "8453"
+address = "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+native = true
+reason = "CoinGecko base native_coin_id; OKX Swap FAQ EVM/Arc native address"
+
+[[tokens]]
+coin_id = "plasma"
+chain_index = "9745"
+address = "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+native = true
+reason = "CoinGecko plasma native_coin_id; OKX Swap FAQ EVM/Arc native address"
+
+[[tokens]]
+coin_id = "ethereum"
+chain_index = "42161"
+address = "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+native = true
+reason = "CoinGecko arbitrum-one native_coin_id; OKX Swap FAQ EVM/Arc native address"
+
+[[tokens]]
+coin_id = "avalanche-2"
+chain_index = "43114"
+address = "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+native = true
+reason = "CoinGecko avalanche native_coin_id; OKX Swap FAQ EVM/Arc native address"
+
+[[tokens]]
+coin_id = "ethereum"
+chain_index = "57073"
+address = "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+native = true
+reason = "CoinGecko ink native_coin_id; OKX Swap FAQ EVM/Arc native address"
+
+[[tokens]]
+coin_id = "ethereum"
+chain_index = "59144"
+address = "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+native = true
+reason = "CoinGecko linea native_coin_id; OKX Swap FAQ EVM/Arc native address"
+
+[[tokens]]
+coin_id = "ethereum"
+chain_index = "81457"
+address = "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+native = true
+reason = "CoinGecko blast native_coin_id; OKX Swap FAQ EVM/Arc native address"
+
+[[tokens]]
+coin_id = "ethereum"
+chain_index = "534352"
+address = "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+native = true
+reason = "CoinGecko scroll native_coin_id; OKX Swap FAQ EVM/Arc native address"
