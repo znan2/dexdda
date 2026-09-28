@@ -2,6 +2,8 @@
 
 **DEX(OKX Onchain OS 애그리게이터)에서 사서 업비트·빗썸에서 팔 때의 가격 차이를, 입금 경로·호가 소진·가스비까지 반영해 보여 주는 로컬 대시보드.**
 
+**데모:** [https://dexdda.com](https://dexdda.com) — 백엔드 없는 정적 빌드, 합성 데이터
+
 ![코인별 비교 표](docs/screenshots/table-desktop.png)
 
 > 스크린샷은 정적 데모(`dist/`)에서 찍었다. 코인 이름·가격·컨트랙트 주소(`0xde70…`)는 모두 **가상의 합성 데이터**이며 실제 시세가 아니다. 이 프로젝트는 개인 학습·도구 용도이고 투자 조언이 아니다.
@@ -69,6 +71,8 @@ flowchart LR
 ## 실행
 
 ### 정적 데모 (백엔드·키 불필요)
+
+배포본: [https://dexdda.com](https://dexdda.com). 로컬에서 직접 빌드하려면:
 
 ```sh
 uv sync --locked
