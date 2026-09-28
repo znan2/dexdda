@@ -56,3 +56,4 @@ SECURITY_AUDIT.md
 .claude/
 .omo/
 tasks/log.csv
+.wrangler/
